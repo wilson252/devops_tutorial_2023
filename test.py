@@ -10,7 +10,7 @@ class TestArithmetic(unittest.TestCase):
     def test_difference(self):
         ap = AP(15, 3)
         ret = ap.difference()
-        self.assertEqual(ret, 11, f"error in difference")
+        self.assertEqual(ret, 12, f"error in difference")
 
     def test_product(self):
         ap = AP(15, 3)
